@@ -8,6 +8,9 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 
+
+
+
 /*------------------------------------------------------------------ 
     IMPORT FILES 
 -------------------------------------------------------------------*/
@@ -2375,3 +2378,152 @@ ul.bottom_menu li {
     background: #050000;
 }
 
+/*--------------------------------------Custom CSS----------------------------------------*/
+
+
+
+.btn {
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	background-color: #ffad33;
+	color: white;
+	font-size: 16px;
+	padding: 16px 30px;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+	text-align: center;
+}
+
+	.btn:hover {
+		background-color: #ff9933;
+		color: white;
+	}
+
+.btn2 {
+	position: absolute;
+	background-color: MediumSeaGreen;
+	border-radius: 5px;
+	color: white;
+	font-size: 10px;
+	top: 1.5%;
+	left: 75%;
+	width: 150px;
+	border: none;
+	height: 32px;
+	font-size: 15px;
+	font-family: Comic Sans MS;
+	text-align: center;
+}
+
+
+	.btn2:hover {
+		background-color: #39ac6d;
+	}
+
+
+.top-right {
+	position: absolute;
+	font-family: Comic Sans MS;
+	font-size: 105%;
+	top: 120px;
+	right: 0px;
+	color: white;
+	background-color: #7b1e5e;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#text {
+	font-family: Comic Sans MS;
+	font-size: 130%;
+	color: black;
+}
+
+.AboutUs {
+	height: 90vh;
+	background-color: floralwhite;
+	background: url('Intial.png') top left no-repeat;
+	background-size: contain,cover;
+}
+
+#shadow-text {
+	height: 37vh;
+	width: 750px;
+	box-shadow: 2px 1px 5px 2px grey;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.Founders {
+	height: 100vh;
+	background-color: white;
+	background: url('images/Meet the Founders.png') top left no-repeat,linear-gradient(130deg,white,#b3d9ff,#80bfff,#ff9999,#ff9999);
+	background-size: contain,cover;
+	box-shadow: 1px 2px 5px 1px pink;
+	border-radius: 10px;
+}
+
+.team {
+	height: 105vh;
+	background-color: white;
+	background: url('images/Meet the team.png') bottom left no-repeat;
+	background-size: 190vh;
+}
+
+#shadow-text {
+	position: absolute;
+	height: 43vh;
+	width: 750px;
+	box-shadow: 2px 1px 5px 2px grey;
+	right: 70px;
+	top: 295px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.share {
+	background-color: white;
+	height: 33vh;
+}
+
+.contact {
+	height: 70vh;
+	background: url('images/Footer.png') left top no-repeat, #ac3973;
+	background-size: contain;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+	a:hover {
+		color: #ffa31a;
+		text-decoration: none;
+	}
+
+.active1 {
+	color: #ffa31a !important
+}
+
+
+@font-face {
+	font-family: happy;
+	src: url('fonts/My Happy Ending - TTF.TTF');
+}
+
+@font-face {
+	font-family: cheer;
+	src: url('fonts/Cheeronsta Regular.otf');
+}
+
+@font-face {
+	font-family: blog;
+	src: url('fonts/BloggerSans.ttf');
+}
